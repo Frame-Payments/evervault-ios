@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Frame-EvervaultCore'
-  s.version          = '2.1.0-frame.1'
+  s.version          = '2.1.0-frame.2'
   s.summary          = 'CocoaPods redistribution of EvervaultCore for the Frame Payments iOS SDK.'
   s.description      = <<-DESC
     EvervaultCore provides card encryption primitives used by the Frame
