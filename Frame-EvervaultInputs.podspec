@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Frame-EvervaultInputs'
-  s.version          = '2.1.0-frame.2'
+  s.version          = '2.1.0-frame.3'
   s.summary          = 'CocoaPods redistribution of EvervaultInputs for the Frame Payments iOS SDK.'
   s.description      = <<-DESC
     EvervaultInputs provides the encrypted card input UI components used by
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '15.0'
   s.swift_versions   = ['5.9']
   s.static_framework = true
+  s.module_name      = 'EvervaultInputs'
 
   s.source_files     = 'Sources/EvervaultInputs/**/*.swift'
   s.resource_bundles = {
